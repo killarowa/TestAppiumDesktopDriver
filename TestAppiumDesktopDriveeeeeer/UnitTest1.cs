@@ -57,7 +57,7 @@ namespace ContactBook.DesktopClientTests
             buttonSearch.Click();
 
             //Case1:
-            // Thread.Sleep(2000);
+            // Thread.Sleep(200000000);
 
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
 
